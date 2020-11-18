@@ -35,12 +35,11 @@
       </div>
       <div class="row d-flex justify-content-center ">
         <div class="col-6">
-          <template v-for='n in image.length'>
-            <a href="#" @click='focus' >
+          <div class="inline" v-for='(el , index) in image'>
+            <a href="#" @click='i = index' >
               <i class="fas fa-circle"></i>
             </a>
-          </template>
-
+          </div>
         </div>
       </div>
     </div>

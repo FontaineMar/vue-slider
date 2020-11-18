@@ -13,3 +13,9 @@
   width: 200px;
   height: 100px;
 }
+.inline{
+  display: inline-block;
+}
+.green{
+  color: green;
+}

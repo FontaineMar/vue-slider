@@ -32,11 +32,16 @@ const sliderImg = new Vue ({
       } else {
         this.i++
       }
-    },
-    focus: function(){
-    this.image[2] = this.i
     }
 
   }
 
+})
+
+document.addEventListener('keyup' , function (e){
+  if(e.key == 'ArrowRight'){
+    sliderImg.rightChev()
+  }else if(e.key == 'ArrowLeft'){
+    sliderImg.leftChev()
+  }
 })
