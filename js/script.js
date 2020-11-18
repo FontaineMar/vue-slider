@@ -34,8 +34,9 @@ const sliderImg = new Vue ({
       }
     },
     focus: function(){
-      this.image == this.i
+    this.image[2] = this.i
     }
+
   }
 
 })
